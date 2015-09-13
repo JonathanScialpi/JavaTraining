@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class TheForgetfulMachine {
 
-    // Multi-dimensional array to show Subject in one column and Teacher name in the other
     public static void main(String[] args) {
     
     //Scanner variable, but never storing the user input...
