@@ -5,8 +5,8 @@ public class DiceRoll {
     public static void main(String[] args) {
 
        Random rand = new Random();
-        int diceRoll1 = rand.nextInt(6);
-        int diceRoll2 = rand.nextInt(6);
+        int diceRoll1 = rand.nextInt(6)+1;
+        int diceRoll2 = rand.nextInt(6)+1;
 
         System.out.println("HERE COMES THE DICE!");
         System.out.print("\r\nRoll #1: " + diceRoll1);
