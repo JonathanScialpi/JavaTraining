@@ -18,8 +18,8 @@ public class DiceDoubles {
             System.out.print("\r\n\r\nRoll #1: " + diceRoll1 + "!");
             System.out.print("\r\nRoll #2: " + diceRoll2 + "!");
             System.out.print("\r\nThe Total is: " + (diceRoll1 + diceRoll2 + "!"));
-            diceRoll1 = rand.nextInt(6);
-            diceRoll2 = rand.nextInt(6);
+            diceRoll1 = rand.nextInt(6)+1;
+            diceRoll2 = rand.nextInt(6)+1;
 
             if (diceRoll1 == diceRoll2) {
                 System.out.print("\r\n\r\nRoll #1: " + diceRoll1 + "!");
