@@ -1,27 +1,28 @@
-package com.company;
 import java.util.*;
 public class BabyNim {
 
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
-        char A = 'A';
-        char B = 'B';
-        char C = 'C';
+
         int pileA = 3;
         int pileB = 3;
         int pileC = 3;
-        while(pileA>0 && pileB > 0 && pileC >0) {
-            System.out.print("A: "pileA + ": " + pileA + "     B: " + pileB + "     C: " + pileC);
+        while(pileA>0 || pileB > 0 || pileC >0) {
+            System.out.print("A: "+pileA+ "     B: " + pileB + "     C: " + pileC);
             System.out.print("\r\nChoose a pile: ");
             String choice = keyboard.nextLine();
             System.out.print("\r\nHow many to remove from pile " + choice + ": ");
             int removal = keyboard.nextInt();
-            if (choice.equals(A)) {
+            keyboard.nextLine();
+            if (choice.equals("A")) {
                 pileA = pileA - removal;
-            } else if (choice.equals(B)) {
+            } else if (choice.equals("B")) {
                 pileB = pileB - removal;
-            } else if (choice.equals(C)) {
+            } else if (choice.equals("C")) {
                 pileC = pileC - removal;
+            }
+            if(pileA<=0 && pileB <= 0 && pileC <= 0) {
+                System.out.print("All piles are empty. Good job!");
             }
         }
     }
