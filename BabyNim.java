@@ -7,6 +7,7 @@ public class BabyNim {
         int pileA = 3;
         int pileB = 3;
         int pileC = 3;
+        //keep playing until none left
         while(pileA>0 || pileB > 0 || pileC >0) {
             System.out.print("A: "+pileA+ "     B: " + pileB + "     C: " + pileC);
             System.out.print("\r\nChoose a pile: ");
