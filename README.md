@@ -4,4 +4,4 @@ These programs (except for the MagicNumber game) were results of
 assignment from the below website: http://programmingbydoing.com/
 
 Feel free to use/improve on the code, just give me a shoutout :)
-my email: jonathanScialpi@gmail.com
+my email: scialpi27@gmail.com
